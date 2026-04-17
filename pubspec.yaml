@@ -1,0 +1,54 @@
+name: contact_management_system
+description: "CMS-GO: Contact Management on the GO with AI-powered transcription"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+  # State Management
+  provider: ^6.1.1
+
+  # Audio Recording
+  record: ^5.1.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+
+  # HTTP & API
+  http: ^1.1.2
+  dio: ^5.4.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+
+  # Utilities
+  intl: ^0.19.0
+  url_launcher: ^6.2.2
+  share_plus: ^7.2.1
+
+  # Authentication
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+dependency_overrides:
+  record_linux: ^1.0.0
+  record_platform_interface: ^1.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
