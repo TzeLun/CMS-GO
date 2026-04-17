@@ -9,7 +9,7 @@ An enterprise-grade mobile application for business development professionals to
 - **Smart Extraction**: AI-powered extraction of key business information
 - **Contact Management**: Store and manage client contacts with detailed business information
 - **Multi-Platform**: iOS and Android support via Flutter
-- **Sharing**: Share contacts via Email and WhatsApp
+- **Sharing**: Share contacts via Email and WhatsApp (not ready)
 - **Secure Authentication**: User login and registration with JWT tokens
 - **Offline Support**: Local database for offline access
 
