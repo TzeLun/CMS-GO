@@ -13,6 +13,22 @@ An enterprise-grade mobile application for business development professionals to
 - **Secure Authentication**: User login and registration with JWT tokens
 - **Offline Support**: Local database for offline access
 
+## Future work
+- **Sharing contacts**: Send contacts via WhatsApp or email.
+
+## Demo app
+<p align="center">
+  <img src="./images/cms1.jpg" width="20%" />
+  <img src="./images/cms2.jpg" width="20%" />
+  <img src="./images/cms3.jpg" width="20%" />
+  <img src="./images/cms4.jpg" width="20%" />
+</p>
+<p align="center">
+  <img src="./images/cms5.jpg" width="20%" />
+  <img src="./images/cms6.jpg" width="20%" />
+  <img src="./images/cms7.jpg" width="20%" />
+</p>
+
 ## Tech Stack
 
 ### Frontend (Mobile App)
@@ -29,6 +45,10 @@ An enterprise-grade mobile application for business development professionals to
 - **OpenAI GPT-4**: Contact information extraction
 - **Docker**: Containerized deployment
 - **JWT**: Secure authentication
+
+### Deployment Infrastructure (Suggestions)
+- **AI backend**: Google Cloud Run
+- **Database**: Supabase
 
 ## Project Structure
 
